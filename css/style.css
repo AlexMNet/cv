@@ -1,0 +1,56 @@
+body {
+   scroll-behavior: smooth;
+}
+
+span {
+   color: #a62700;
+}
+
+.navbar-logo {
+   width: 100px;
+}
+
+#header {
+   height: 100vh;
+   background-image: url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.dark-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.8);
+}
+
+.img-fluid {
+   height: 235px;
+   width: 350px;
+}
+
+#image-grid img {
+   transition: all 300ms ease-in-out;
+}
+
+#image-grid img:hover {
+   transform: scale(1.1);
+}
+
+#main-footer {
+   background-color: black;
+   color: white;
+}
+
+#main-footer a {
+   color: #a62700;
+}
+
+.btn {
+   background-color: #a62700;
+   color: #fff;
+}
